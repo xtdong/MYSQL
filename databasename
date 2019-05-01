@@ -1,0 +1,6 @@
+SELECT *
+FROM users
+
+INSERT INTO `twitter`.`users` (`id`, `first_name`, `last_name`, `created_at`) VALUES ('6', 'Kelly', 'Lee', '2019-03-23 11:20:12');
+
+DELETE FROM `twitter`.`users` WHERE (`id` = '6');
